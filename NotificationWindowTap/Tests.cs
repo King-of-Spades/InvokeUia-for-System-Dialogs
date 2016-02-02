@@ -43,7 +43,7 @@ namespace NotificationWindowTap
 		{
 			app.Screenshot ("First screen.");
 			app.InvokeUia ("uia.query('[:view {:marked \"OK\"}]')");
-			app.InvokeUia ("uia.tapMark(\"OK\")"); 
+			app.InvokeUia ("uia.tapMark(\"OK\")");
 		}
 	}
 }

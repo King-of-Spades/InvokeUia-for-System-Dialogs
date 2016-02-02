@@ -95,16 +95,23 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Code\" />
     <Folder Include="Screens\" />
     <Folder Include="Screens\iPhone\" />
     <Folder Include="Screens\iPhone\Home\" />
     <Folder Include="Screens\iPhone\DeviceToken\" />
     <Folder Include="Resources\" />
+    <Folder Include="config\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
     <None Include="packages.config" />
+    <None Include="features\sample.feature" />
+    <None Include="features\steps\sample_steps.rb" />
+    <None Include="features\support\01_launch.rb" />
+    <None Include="features\support\dry_run.rb" />
+    <None Include="features\support\env.rb" />
+    <None Include="features\support\patches\cucumber.rb" />
+    <None Include="config\cucumber.yml" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Screens\iPhone\Home\Home_iPhone.xib" />
