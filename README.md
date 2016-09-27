@@ -1,4 +1,4 @@
-Note: Xcode 8 / iOS 10 removed UIAutomation; so the approach will not work on these versions. 
+Note: Xcode 8 / iOS 10 removed UIAutomation; so the approach below will not work on these versions. 
 More information on how iOS 10 changes affect UITest is available here: https://developer.xamarin.com/guides/testcloud/uitest/working-with/ios-10/
 
 InvokeUia for System Dialogs 
